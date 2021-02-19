@@ -1,0 +1,14 @@
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: blue!;
+}
+.center{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+}

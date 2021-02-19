@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "620355966912",
+    "project_id": "sustainability-cd5c7",
+    "storage_bucket": "sustainability-cd5c7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620355966912:android:82d7a92b23f9c556005a25",
+        "android_client_info": {
+          "package_name": "com.example.tcswellness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620355966912-3sldr9ovb465l93mr9eo2gnhdtj8rp6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcl9K7YDyc_kXFfRf2ecUAw_d9P976W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620355966912-3sldr9ovb465l93mr9eo2gnhdtj8rp6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620355966912:android:2dd5c5b2e4653f45005a25",
+        "android_client_info": {
+          "package_name": "com.example.wellness"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620355966912-3sldr9ovb465l93mr9eo2gnhdtj8rp6f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfcl9K7YDyc_kXFfRf2ecUAw_d9P976W8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620355966912-3sldr9ovb465l93mr9eo2gnhdtj8rp6f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

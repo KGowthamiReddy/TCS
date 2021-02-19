@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="top"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:paddingTop="120dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="1"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Blood Pressure"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:id="@+id/bp"
+        android:layout_width="70dp"
+        android:gravity="center"
+        android:text="0"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="2"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Body Temparature"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:layout_width="70dp"
+        android:gravity="center"
+        android:id="@+id/bodytem"
+
+        android:text="0"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="3"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Electro Cardiogram"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:layout_width="70dp"
+        android:id="@+id/electro"
+
+        android:gravity="center"
+        android:text="0"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="4"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Glucose"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:layout_width="70dp"
+        android:gravity="center"
+        android:text="0"
+        android:id="@+id/glucose"
+
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="5"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Heart Rate"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:layout_width="70dp"
+        android:gravity="center"
+            android:id="@+id/heartrate"
+        android:text="0"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    </LinearLayout>    <LinearLayout
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="50dp"
+        android:gravity="center"
+        android:text="6"
+        android:layout_height="wrap_content">
+
+    </TextView>
+    <TextView
+        android:layout_width="220dp"
+        android:gravity="center"
+        android:text="Oxgen Saturation"
+        android:layout_height="wrap_content">
+
+    </TextView><TextView
+    android:layout_width="70dp"
+    android:gravity="center"
+    android:id="@+id/oxygen"
+    android:text="0"
+    android:layout_height="wrap_content">
+
+</TextView>
+</LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="50dp"
+            android:gravity="center"
+            android:text="7"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_width="220dp"
+            android:gravity="center"
+            android:text="Respiration"
+            android:layout_height="wrap_content">
+
+        </TextView><TextView
+        android:layout_width="70dp"
+        android:gravity="center"
+        android:text="0"
+        android:id="@+id/respiraton"
+        android:layout_height="wrap_content">
+
+    </TextView></LinearLayout>
+
+
+    <Button
+        android:id="@+id/refresh"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Refresh"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Button>
+
+    <Button
+        android:id="@+id/upd"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+
+        android:text="Upload Documents"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></Button>
+</LinearLayout>
